@@ -1,5 +1,7 @@
 package pojo;
-
+/*
+注释
+*/
 public class Hello {
     private String str;
 
