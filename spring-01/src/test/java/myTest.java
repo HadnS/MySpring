@@ -12,7 +12,7 @@ import service.UserServiceImp;
 import dao.UserOracleImp;
 public class myTest {
     public static void main(String[] args) {
-        UserService test = new UserServiceImp();
+        UserServiceImp test = new UserServiceImp();
         test.setUser(new UserMysqlImp());
         test.getUser();
     }
